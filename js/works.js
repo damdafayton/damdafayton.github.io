@@ -3,7 +3,8 @@ const portfolioList = [
   {
     name: 'Budget App',
     description:
-      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
+ Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
     screenshotUrl: './works/ss_budget_app_rails.gif',
     tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
     linkToLive: 'https://damdafayton-budget.herokuapp.com/',
@@ -12,7 +13,8 @@ const portfolioList = [
   {
     name: 'Show My Neighbors',
     description:
-      'A SPA built with React, Redux, showing neighboring countries of the visitor.',
+      'A SPA built with React, Redux, showing neighboring countries of the visitor.\
+ Original design by <a class="text-success" target="_blank" href="https://dribbble.com/shots/2113468-Behance-Version">Nelson Sakwa</a> on Dribbble',
     screenshotUrl: './works/capstone_location_ss-wide.gif',
     tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
     linkToLive: 'https://damdafayton-countries.herokuapp.com/',
@@ -34,6 +36,15 @@ const portfolioList = [
     ],
     linkToLive: 'https://defi-token-farm.netlify.app/',
     linkToSource: 'https://github.com/damdafayton/defi-token-farm',
+  },
+  {
+    name: 'Restaurant',
+    description: 'Restaurant site\
+ Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin</a> on Behance',
+    screenshotUrl: './works/ss-restaurant.jpg',
+    tech: ['HTML', 'CSS', 'JS', 'Bootstrap.css', 'SCSS.css'],
+    linkToLive: 'https://damdafayton.github.io/restaurant/',
+    linkToSource: 'https://github.com/damdafayton/restaurant',
   },
   {
     name: 'Blog App',
@@ -87,14 +98,6 @@ const portfolioList = [
     tech: ['HTML', 'CSS', 'JS', 'SCSS.css'],
     linkToLive: 'https://damdafayton.github.io/portfolio/',
     linkToSource: 'https://github.com/damdafayton/portfolio',
-  },
-  {
-    name: 'Restaurant',
-    description: 'Dummy restaurant web page',
-    screenshotUrl: './works/ss-restaurant.jpg',
-    tech: ['HTML', 'CSS', 'JS', 'Bootstrap.css', 'SCSS.css'],
-    linkToLive: 'https://damdafayton.github.io/restaurant/',
-    linkToSource: 'https://github.com/damdafayton/restaurant',
   },
 ];
 
@@ -170,7 +173,7 @@ function portfolioPopUp(e) {
         element.src = portfolioList[n].screenshotUrl;
         break;
       case 'popUpDescription':
-        element.innerText = portfolioList[n].description;
+        element.innerHTML = portfolioList[n].description;
         break;
       case 'popUpTech':
         ulFiller(element, n);
