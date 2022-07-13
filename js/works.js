@@ -39,7 +39,7 @@ const portfolioList = [
   },
   {
     name: 'Restaurant',
-    description: 'Restaurant site\
+    description: 'Restaurant promotion site.\
  Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin</a> on Behance',
     screenshotUrl: './works/ss-restaurant.jpg',
     tech: ['HTML', 'CSS', 'JS', 'Bootstrap.css', 'SCSS.css'],
