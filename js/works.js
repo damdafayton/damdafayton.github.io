@@ -1,14 +1,16 @@
 // Portfolio data
 const portfolioList = [
   {
-    name: 'Budget App',
+    name: 'Doctor Appointment',
     description:
-      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
- Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
-    screenshotUrl: './works/ss_budget_app_rails.gif',
-    tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
-    linkToLive: 'https://damdafayton-budget.herokuapp.com/',
-    linkToSource: 'https://github.com/damdafayton/budget-app-rails',
+      'This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
+      Back-end is built with Rails according to RESTful api principles.\
+      Front-end is built with React according to mobile first, responsive design principles.\
+      App is hosted on free Heroku containers so it might take up to 20-30 seconds to load initially.',
+    screenshotUrl: './works/ss-doctors.png',
+    tech: ['Ruby', 'Rails', 'React', 'Redux', 'Bootstrap', 'SASS', 'Postgresql', 'RSpec', 'RSwag'],
+    linkToLive: 'https://doctors-appointment-project.herokuapp.com/',
+    linkToSource: 'https://github.com/damdafayton/doctors-appointment-frontend',
   },
   {
     name: 'Show My Neighbors',
@@ -19,6 +21,16 @@ const portfolioList = [
     tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
     linkToLive: 'https://damdafayton-countries.herokuapp.com/',
     linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
+  },
+  {
+    name: 'Budget App',
+    description:
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
+ Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
+    screenshotUrl: './works/ss_budget_app_rails.gif',
+    tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
+    linkToLive: 'https://damdafayton-budget.herokuapp.com/',
+    linkToSource: 'https://github.com/damdafayton/budget-app-rails',
   },
   {
     name: 'De-fi Token Farm',
