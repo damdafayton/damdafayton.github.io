@@ -19,7 +19,7 @@ const portfolioList = [
  Original design by <a class="text-success" target="_blank" href="https://dribbble.com/shots/2113468-Behance-Version">Nelson Sakwa</a> on Dribbble',
     screenshotUrl: './works/capstone_location_ss-wide.gif',
     tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
-    linkToLive: 'https://damdafayton-countries.herokuapp.com/',
+    linkToLive: 'https://who-is-my-neighbor.netlify.app/',
     linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
   },
   {
