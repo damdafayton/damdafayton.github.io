@@ -10,7 +10,7 @@ const portfolioList = [
     screenshotUrl: './works/ss-doctors.png',
     tech: ['Ruby', 'Rails', 'React', 'Redux', 'Bootstrap', 'SASS', 'Postgresql', 'RSpec', 'RSwag'],
     linkToLive: 'https://doctors-appointment-project.herokuapp.com/',
-    linkToSource: 'https://github.com/damdafayton/doctors-appointment-frontend',
+    linkToSource: 'https://github.com/damdafayton/doctors-appointment-backend',
   },
   {
     name: 'Show My Neighbors',
