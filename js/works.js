@@ -4,8 +4,8 @@ const portfolioList = [
     name: 'Doctor Appointment',
     description:
       'This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
-      Back-end is built with Rails according to RESTful api principles.\
-      Front-end is built with React according to mobile first, responsive design principles.\
+      The back-end is built with Rails according to RESTful API principles.\
+      The front-end is built with React according to mobile first, responsive design principles.\
       App is hosted on free Heroku containers so it might take up to 20-30 seconds to load initially.',
     screenshotUrl: './works/ss-doctors.png',
     tech: ['Ruby', 'Rails', 'React', 'Redux', 'Bootstrap', 'SASS', 'Postgresql', 'RSpec', 'RSwag'],
