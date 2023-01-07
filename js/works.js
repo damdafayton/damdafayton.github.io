@@ -59,7 +59,7 @@ const portfolioList = [
     linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
   },
   {
-    name: 'Test Task: Products',
+    name: 'Products Demo',
     description:
       '(Live site is down because of Heroku) Back-end built by PHP7 and front-end built by React. The aim of the test task was to utilize classes and interfaces with PHP.\
       Back-end repository: https://github.com/damdafayton/products-project-backend.',
