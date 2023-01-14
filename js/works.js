@@ -10,7 +10,7 @@ const portfolioList = [
   {
     name: 'Doctor Appointment',
     description:
-      'This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
+      '(Note: Due to end of Heroku Free Dynos service, Rails backend is currently down. It will be up when transition to AWS is completed.) This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
       The back-end is built with Rails according to RESTful API principles.\
       The front-end is built with React according to mobile first, responsive design principles.\
       App is hosted on free Heroku containers so it might take up to 20-30 seconds to load initially.',
@@ -26,7 +26,7 @@ const portfolioList = [
       'RSpec',
       'RSwag',
     ],
-    linkToLive: 'https://doctors-appointment-project.herokuapp.com/',
+    linkToLive: 'https://damdafayton.github.io/doctors-appointment-frontend/',
     linkToSource: 'https://github.com/damdafayton/doctors-appointment-backend',
   },
   {
@@ -83,11 +83,11 @@ const portfolioList = [
   {
     name: 'Budget App',
     description:
-      '(Live site is down because of Heroku) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
+      '(Note: Due to end of Heroku Free Dynos service, Rails backend is currently down. It will be up when transition to AWS is completed.) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
  Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
     screenshotUrl: './works/ss_budget_app_rails.gif',
     tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
-    linkToLive: 'https://damdafayton-budget.herokuapp.com/',
+    linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
     linkToSource: 'https://github.com/damdafayton/budget-app-rails',
   },
   {
