@@ -32,7 +32,7 @@ const portfolioList = [
   {
     name: 'Tinder MVP',
     description:
-      "(Live site is down because of Heroku) This app is a simple Tinder copy to practice with Nest.js and various API's such as: Google sign in, Facebook sign in,\
+      "This app is a simple Tinder copy to practice with Nest.js and various API's such as: Google sign in, Facebook sign in,\
     Google Maps Library - Places autocomplete API,\
     Handlebars template system. JWT's are used for authentication. RTK Query handles the auto renewal of 'access tokens'. And 'refresh tokens'\
     which are saved into cookies is used for the renewal. The app is also converted into a PWA thanks to the Google's WorkBox.",
@@ -45,17 +45,19 @@ const portfolioList = [
       'Jest',
       'Supertest',
       'WorkBox',
+      'Docker',
+      'AWS-EC2',
     ],
-    linkToLive: 'https://nest-react-demo.herokuapp.com/',
+    linkToLive: 'http://ec2-3-91-49-149.compute-1.amazonaws.com',
   },
   {
     name: 'Show My Neighbors',
     description:
-      '(Live site is down because of Heroku) A SPA built with React, Redux, showing neighboring countries of the visitor.\
+      'A SPA built with React, Redux, showing neighboring countries of the visitor.\
  Original design by <a class="text-success" target="_blank" href="https://dribbble.com/shots/2113468-Behance-Version">Nelson Sakwa</a> on Dribbble',
     screenshotUrl: './works/capstone_location_ss-wide.gif',
     tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
-    linkToLive: 'https://who-is-my-neighbor.netlify.app/',
+    linkToLive: 'https://damdafayton.github.io/who-is-my-neighbor',
     linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
   },
   {
