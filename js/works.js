@@ -87,7 +87,7 @@ const portfolioList = [
  Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
     screenshotUrl: './works/ss_budget_app_rails.gif',
     tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
-    linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
+    // linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
     linkToSource: 'https://github.com/damdafayton/budget-app-rails',
   },
   {
