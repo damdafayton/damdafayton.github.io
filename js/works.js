@@ -83,7 +83,7 @@ const portfolioList = [
   {
     name: 'Budget App',
     description:
-      '(Note: Due to end of Heroku Free Dynos service, Rails backend is currently down. It will be up when transition to AWS is completed.) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
+      '(Note: App is down due to end of Heroku Free Dynos service.) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
  Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
     screenshotUrl: './works/ss_budget_app_rails.gif',
     tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
