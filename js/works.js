@@ -48,7 +48,7 @@ const portfolioList = [
       'Docker',
       'AWS-EC2',
     ],
-    linkToLive: 'http://ec2-3-91-49-149.compute-1.amazonaws.com',
+    linkToLive: 'http://timber-1835626977.us-east-1.elb.amazonaws.com/',
   },
   {
     name: 'Show My Neighbors',
