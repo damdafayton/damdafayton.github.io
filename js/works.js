@@ -46,7 +46,7 @@ const portfolioList = [
       'Supertest',
       'WorkBox',
       'Docker',
-      'AWS-EC2',
+      'AWS',
     ],
     linkToLive: 'http://timber-1835626977.us-east-1.elb.amazonaws.com/',
   },
