@@ -8,26 +8,14 @@ const portfolioList = [
     linkToLive: 'https://damdafayton-ukraine.netlify.app/',
   },
   {
-    name: 'Doctor Appointment',
+    name: 'Show My Neighbors',
     description:
-      '(Note: Due to end of Heroku Free Dynos service, Rails backend is currently down. It will be up when transition to AWS is completed.) This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
-      The back-end is built with Rails according to RESTful API principles.\
-      The front-end is built with React according to mobile first, responsive design principles.\
-      App is hosted on free Heroku containers so it might take up to 20-30 seconds to load initially.',
-    screenshotUrl: './works/ss-doctors.png',
-    tech: [
-      'Ruby',
-      'Rails',
-      'React',
-      'Redux',
-      'Bootstrap',
-      'SASS',
-      'Postgresql',
-      'RSpec',
-      'RSwag',
-    ],
-    linkToLive: 'https://damdafayton.github.io/doctors-appointment-frontend/',
-    linkToSource: 'https://github.com/damdafayton/doctors-appointment-backend',
+      'A SPA built with React, Redux, showing neighboring countries of the visitor.\
+ Original design by <a class="text-success" target="_blank" href="https://dribbble.com/shots/2113468-Behance-Version">Nelson Sakwa</a> on Dribbble',
+    screenshotUrl: './works/capstone_location_ss-wide.gif',
+    tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
+    linkToLive: 'https://damdafayton.github.io/who-is-my-neighbor',
+    linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
   },
   // {
   //   name: 'Tinder MVP',
@@ -50,16 +38,6 @@ const portfolioList = [
   //   ],
   //   linkToLive: 'http://timbr-981687662.us-east-1.elb.amazonaws.com/',
   // },
-  {
-    name: 'Show My Neighbors',
-    description:
-      'A SPA built with React, Redux, showing neighboring countries of the visitor.\
- Original design by <a class="text-success" target="_blank" href="https://dribbble.com/shots/2113468-Behance-Version">Nelson Sakwa</a> on Dribbble',
-    screenshotUrl: './works/capstone_location_ss-wide.gif',
-    tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'Redux'],
-    linkToLive: 'https://damdafayton.github.io/who-is-my-neighbor',
-    linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
-  },
   // {
   //   name: 'Products Demo',
   //   description:
@@ -90,23 +68,46 @@ const portfolioList = [
   //     // linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
   //     linkToSource: 'https://github.com/damdafayton/budget-app-rails',
   //   },
-  //   {
-  //     name: 'De-fi Token Farm',
-  //     description:
-  //       'Yield farming dapp built by Brownie, Python and React where you can stake and un-stake various tokens.',
-  //     screenshotUrl: './works/ss-defi-token-farm.png',
-  //     tech: [
-  //       'JS',
-  //       'TypeScript',
-  //       'Bootstrap',
-  //       'React',
-  //       'Solidity',
-  //       'Python',
-  //       'Brownie',
-  //     ],
-  //     linkToLive: 'https://defi-token-farm.netlify.app/',
-  //     linkToSource: 'https://github.com/damdafayton/defi-token-farm',
-  //   },
+  {
+    name: 'De-fi Token Farm',
+    description:
+      'Yield farming dapp built by Brownie, Python and React where you can stake and un-stake various tokens.',
+    screenshotUrl: './works/ss-defi-token-farm.png',
+    tech: [
+      'JS',
+      'TypeScript',
+      'Bootstrap',
+      'React',
+      'Solidity',
+      'Python',
+      'Brownie',
+    ],
+    linkToLive: 'https://defi-token-farm.netlify.app/',
+    linkToSource: 'https://github.com/damdafayton/defi-token-farm',
+  },
+
+  {
+    name: 'Doctor Appointment',
+    description:
+      '(Note: Due to end of Heroku Free Dynos service, Rails backend is currently down. It will be up when transition to AWS is completed.) This app is an implementation of the <a class="text-success" target="blank" href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign">design of Murat Korkmaz from Behance</a> for a doctor booking app.\
+      The back-end is built with Rails according to RESTful API principles.\
+      The front-end is built with React according to mobile first, responsive design principles.\
+      App is hosted on free Heroku containers so it might take up to 20-30 seconds to load initially.',
+    screenshotUrl: './works/ss-doctors.png',
+    tech: [
+      'Ruby',
+      'Rails',
+      'React',
+      'Redux',
+      'Bootstrap',
+      'SASS',
+      'Postgresql',
+      'RSpec',
+      'RSwag',
+    ],
+    linkToLive: 'https://damdafayton.github.io/doctors-appointment-frontend/',
+    linkToSource: 'https://github.com/damdafayton/doctors-appointment-backend',
+  },
   {
     name: 'Restaurant',
     description:
