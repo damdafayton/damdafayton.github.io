@@ -80,33 +80,33 @@ const portfolioList = [
   //   linkToLive: 'https://damdafayton.github.io/horse-race/',
   //   linkToSource: 'https://github.com/damdafayton/horse-race',
   // },
-  {
-    name: 'Budget App',
-    description:
-      '(Note: App is down due to end of Heroku Free Dynos service.) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
- Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
-    screenshotUrl: './works/ss_budget_app_rails.gif',
-    tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
-    // linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
-    linkToSource: 'https://github.com/damdafayton/budget-app-rails',
-  },
-  {
-    name: 'De-fi Token Farm',
-    description:
-      'Yield farming dapp built by Brownie, Python and React where you can stake and un-stake various tokens.',
-    screenshotUrl: './works/ss-defi-token-farm.png',
-    tech: [
-      'JS',
-      'TypeScript',
-      'Bootstrap',
-      'React',
-      'Solidity',
-      'Python',
-      'Brownie',
-    ],
-    linkToLive: 'https://defi-token-farm.netlify.app/',
-    linkToSource: 'https://github.com/damdafayton/defi-token-farm',
-  },
+  //   {
+  //     name: 'Budget App',
+  //     description:
+  //       '(Note: App is down due to end of Heroku Free Dynos service.) A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.\
+  //  Original design by <a class="text-success" target="_blank" href="https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=">Gregoire Vella</a> on Behance',
+  //     screenshotUrl: './works/ss_budget_app_rails.gif',
+  //     tech: ['Ruby', 'Rails', 'Bootstrap', 'Sass', 'Postgresql', 'RSpec'],
+  //     // linkToLive: 'https://damdafayton.github.io/budget-app-rails/',
+  //     linkToSource: 'https://github.com/damdafayton/budget-app-rails',
+  //   },
+  //   {
+  //     name: 'De-fi Token Farm',
+  //     description:
+  //       'Yield farming dapp built by Brownie, Python and React where you can stake and un-stake various tokens.',
+  //     screenshotUrl: './works/ss-defi-token-farm.png',
+  //     tech: [
+  //       'JS',
+  //       'TypeScript',
+  //       'Bootstrap',
+  //       'React',
+  //       'Solidity',
+  //       'Python',
+  //       'Brownie',
+  //     ],
+  //     linkToLive: 'https://defi-token-farm.netlify.app/',
+  //     linkToSource: 'https://github.com/damdafayton/defi-token-farm',
+  //   },
   {
     name: 'Restaurant',
     description:
