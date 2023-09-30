@@ -29,27 +29,27 @@ const portfolioList = [
     linkToLive: 'https://damdafayton.github.io/doctors-appointment-frontend/',
     linkToSource: 'https://github.com/damdafayton/doctors-appointment-backend',
   },
-  {
-    name: 'Tinder MVP',
-    description:
-      "This app is a simple Tinder copy to practice with Nest.js and various API's such as: Google sign in, Facebook sign in,\
-    Google Maps Library - Places autocomplete API,\
-    Handlebars template system. JWT's are used for authentication. RTK Query handles the auto renewal of 'access tokens'. And 'refresh tokens'\
-    which are saved into cookies is used for the renewal. The app is also converted into a PWA thanks to the Google's WorkBox.",
-    screenshotUrl: './works/timber-ss1.png',
-    tech: [
-      'Nest.js',
-      'React/TypeScript',
-      'Redux Toolkit',
-      'Material UI',
-      'Jest',
-      'Supertest',
-      'WorkBox',
-      'Docker',
-      'AWS',
-    ],
-    linkToLive: 'http://timbr-981687662.us-east-1.elb.amazonaws.com/',
-  },
+  // {
+  //   name: 'Tinder MVP',
+  //   description:
+  //     "This app is a simple Tinder copy to practice with Nest.js and various API's such as: Google sign in, Facebook sign in,\
+  //   Google Maps Library - Places autocomplete API,\
+  //   Handlebars template system. JWT's are used for authentication. RTK Query handles the auto renewal of 'access tokens'. And 'refresh tokens'\
+  //   which are saved into cookies is used for the renewal. The app is also converted into a PWA thanks to the Google's WorkBox.",
+  //   screenshotUrl: './works/timber-ss1.png',
+  //   tech: [
+  //     'Nest.js',
+  //     'React/TypeScript',
+  //     'Redux Toolkit',
+  //     'Material UI',
+  //     'Jest',
+  //     'Supertest',
+  //     'WorkBox',
+  //     'Docker',
+  //     'AWS',
+  //   ],
+  //   linkToLive: 'http://timbr-981687662.us-east-1.elb.amazonaws.com/',
+  // },
   {
     name: 'Show My Neighbors',
     description:
@@ -60,16 +60,16 @@ const portfolioList = [
     linkToLive: 'https://damdafayton.github.io/who-is-my-neighbor',
     linkToSource: 'https://github.com/damdafayton/who-is-my-neighbor',
   },
-  {
-    name: 'Products Demo',
-    description:
-      '(Live site is down because of Heroku) Back-end built by PHP7 and front-end built by React. The aim of the test task was to utilize classes and interfaces with PHP.\
-      Back-end repository: https://github.com/damdafayton/products-project-backend.',
-    screenshotUrl: './works/products.png',
-    tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'PHP7', 'MySQL'],
-    linkToLive: 'https://damdafayton.github.io/products-project-frontend/',
-    linkToSource: 'https://github.com/damdafayton/products-project-frontend',
-  },
+  // {
+  //   name: 'Products Demo',
+  //   description:
+  //     '(Live site is down because of Heroku) Back-end built by PHP7 and front-end built by React. The aim of the test task was to utilize classes and interfaces with PHP.\
+  //     Back-end repository: https://github.com/damdafayton/products-project-backend.',
+  //   screenshotUrl: './works/products.png',
+  //   tech: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SCSS', 'React', 'PHP7', 'MySQL'],
+  //   linkToLive: 'https://damdafayton.github.io/products-project-frontend/',
+  //   linkToSource: 'https://github.com/damdafayton/products-project-frontend',
+  // },
   // {
   //   name: 'Test Task: Horse Race',
   //   description:
